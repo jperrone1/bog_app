@@ -1,1 +1,9 @@
-"Hello, bogs."
+
+<% @bogs.each do |bog| %>
+
+	<div>
+		Name: <%= bog[:name] %> <br>
+		Description: <%= bog[:description] %> <br><br>
+	</div>
+
+<% end %>
