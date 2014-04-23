@@ -1,11 +1,13 @@
 BogApp::Application.routes.draw do
 
-root to: 'bogs#index'
+  root to: 'bogs#index'
 
-get '/bogs', to: 'bogs#index'
+  get '/bogs', to: 'bogs#index'
 
-get '/bogs/new', to: 'bogs#new'
+  get '/bogs/new', to: 'bogs#new'
 
-post '/bogs', to: 'bogs#create'
+  post '/bogs', to: 'bogs#create'
+
+
 
 end
